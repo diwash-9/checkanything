@@ -12,6 +12,15 @@ dist
 dist-ssr
 *.local
 
+# Environment variables (keep the example)
+.env
+.env.*
+!.env.example
+
+# Test / tool caches
+coverage
+.vercel
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
